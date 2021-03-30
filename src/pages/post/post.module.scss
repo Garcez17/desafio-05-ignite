@@ -1,1 +1,55 @@
-// TODO
+.container {
+  > img {
+    width: 100%;
+    height: 25rem;
+  }
+}
+
+.infoPost {
+  margin-top: 1.5rem;
+  display: flex;
+
+  > span {
+    svg {
+      margin-right: 0.5rem;
+    }
+
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: var(--gray-200);
+  }
+
+  span + span {
+    margin-left: 1.5rem;
+  }
+}
+
+.postContent {
+  margin-top: 4rem;
+  line-height: 2rem;
+  font-size: 1.125rem;
+  color: var(--gray-100);
+
+  header {
+    strong {
+      font-size: 2.2rem;
+    }
+  }
+
+  p {
+    margin: 1.5rem 0;
+  }
+
+  ul {
+    padding: 1.5rem;
+
+    li {
+      margin: 0.5rem;
+    }
+  }
+
+  div + div {
+    margin-top: 5rem;
+  }
+}
